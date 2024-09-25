@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'workshop';
+  t=20;
+ list=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 }
