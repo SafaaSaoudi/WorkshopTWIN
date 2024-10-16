@@ -10,6 +10,10 @@ import { ListCategoriesComponent } from './list-categories/list-categories.compo
 import { HighlighterDirective } from './highlighter.directive';
 import { FormsModule } from '@angular/forms';
 import { SearchPipe } from './search.pipe';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { ProductscategoryComponent } from './productscategory/productscategory.component';
+import { DetailsCategoryComponent } from './details-category/details-category.component';
+import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import { SearchPipe } from './search.pipe';
     HomeComponent,
     ListCategoriesComponent,
     HighlighterDirective,
-    SearchPipe
+    SearchPipe,
+    NotfoundComponent,
+    ProductscategoryComponent,
+    DetailsCategoryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
